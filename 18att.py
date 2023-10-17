@@ -1,4 +1,6 @@
-tm=float(input('o tmanho do seu arquivo'))
-vl=float(input('sua velocidade de internet'))
-tt=(tm*vl)*100
-print('o dowload do seu arquivo em minutos e{}'.format(tt))
+
+arqv= float(input("Digite o tamanho do arquivo em mb: "))
+vlc = float(input("Digite a velocidade da conexão em mbps: "))
+tmp= arqv / vlc
+minutos = tmp / 60
+print("{} min".format(minutos))
