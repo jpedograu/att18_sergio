@@ -1,4 +1,4 @@
-import math
+
 mq=float(input('digite quantos metros vc vai pintar'))
 lt=math.ceil(mq/54)
 pr=lt*80
